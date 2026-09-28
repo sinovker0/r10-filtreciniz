@@ -20,7 +20,7 @@ Bu Chrome eklentisi, R10 konu listelerinde seçilen kullanıcıya ait satırlar�
 1. Chrome'da `chrome://extensions` adresini açın.
 2. Geliştirici modunu etkinleştirin.
 3. **Paketlenmemiş öğe yükle** seçeneğine basın.
-4. Bu klasörü seçin: `r10-konu-filtreleyici`
+4. Bu klasörü seçin: `r10-filtreciniz`
 5. R10 konu listesine gidip eklenti simgesinden filtreyi açın.
 
 ## Kullanım
