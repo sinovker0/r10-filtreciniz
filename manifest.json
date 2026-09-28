@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "R10 Filtreciniz",
+  "version": "1.4.0",
+  "description": "R10 konu satırlarını ve post mesajlarını seçilen kullanıcıya göre yerel olarak gizler.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://r10.net/*", "https://www.r10.net/*"],
+  "action": {
+    "default_title": "R10 Konu Filtreleyici",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://r10.net/*", "https://www.r10.net/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

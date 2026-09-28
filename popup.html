@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>R10 Filtreciniz</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <h1>R10 Filtreciniz</h1>
+    <p class="note">Yalnızca konu listesi satırlarını yerel olarak gizler.</p>
+
+    <label class="switch-row">
+      <input id="enabled" type="checkbox">
+      <span>Filtre aktif</span>
+    </label>
+
+    <fieldset>
+      <legend>Uygulanacak filtreler</legend>
+      <label><input id="filterTopics" type="checkbox"> Konu başlıklarını kaldır</label>
+      <label><input id="filterPosts" type="checkbox"> Post mesajlarını kaldır</label>
+    </fieldset>
+
+    <label for="username">Gizlenecek kullanıcı</label>
+    <div class="add-row">
+      <input id="username" type="text" maxlength="40" placeholder="Kullanıcı adı" autocomplete="off">
+      <button id="add" type="button">Ekle</button>
+    </div>
+
+    <p class="note">Filtre aktifken listedeki kullanıcıların açtığı tüm konu satırları gizlenir.</p>
+
+    <ul id="users" aria-live="polite"></ul>
+    <div id="count" class="count" aria-live="polite">Konular: 0 | Postlar: 0</div>
+    <p id="status" class="status"></p>
+    <p class="privacy">Ağ bağlantısı, mesaj gönderme ve sunucudan silme yoktur.</p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
