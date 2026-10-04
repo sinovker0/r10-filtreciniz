@@ -25,6 +25,9 @@ Bu Chrome eklentisi, R10 konu listelerinde seçilen kullanıcıya ait satırlar�
 
 ## Kullanım
 
+<img width="325" height="475" alt="Screenshot_1" src="https://github.com/user-attachments/assets/5796abe3-388f-4ef8-8236-28680bb231db" />
+
+
 Kullanıcı adlarını ekleyin ve filtreyi aktif edin. Eklenen kullanıcıların konu sahibi olduğu satırlar ve konu içindeki postları gizlenir.
 
 Değişikliklerden sonra R10 liste sayfasını yenileyin. Satırlar silinmez; sadece sizin tarayıcınızda görünmez olur.
